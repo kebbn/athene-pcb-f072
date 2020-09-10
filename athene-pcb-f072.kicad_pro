@@ -47,7 +47,14 @@
           "width": 0.25
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|31700000|23507500|67a32fc4-c370-45fa-9e60-c0aa9e6de98b|3c6cbffc-990f-4852-96f9-fedda9c82001",
+        "clearance|37375000|23507500|7e032eeb-5d4f-421b-9814-5b933c740a52|fae99858-e111-450d-85ac-7d024ef697e7",
+        "copper_edge_clearance|196881750|108585000|6916bd03-763a-4ecb-92d4-93b3e8993db6|00000000-0000-0000-0000-000000000000",
+        "copper_edge_clearance|270637000|18415000|2858e56f-e835-44ac-8595-9cd0c9d4a859|00000000-0000-0000-0000-000000000000",
+        "copper_edge_clearance|294513000|18415000|d48f1e2e-e3e7-4230-8b36-0e702104ec4f|00000000-0000-0000-0000-000000000000",
+        "copper_edge_clearance|96805750|108585000|e86179ef-63d9-4d2d-937f-a475f7c3c392|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 0
       },
@@ -289,7 +296,8 @@
       "pin_not_driven": "error",
       "pin_to_pin": "error",
       "similar_labels": "error",
-      "unresolved_variable": "error"
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
     }
   },
   "libraries": {
@@ -328,6 +336,9 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
+          "+3V3",
+          "+5V",
+          "GND",
           "VBUS"
         ],
         "track_width": 0.5,
@@ -378,7 +389,7 @@
   },
   "sheets": [
     [
-      "a2d5eec5-21d9-4a84-a065-73c43e0c544c",
+      "ddf64e27-7ea1-4a1b-a417-ff5692fbfd2b",
       ""
     ]
   ],

@@ -61,10 +61,38 @@
       36,
       37
     ],
-    "visible_layers": "450f3_ffffffff"
+    "visible_layers": "450f0_ffffffff"
   },
   "meta": {
     "filename": "athene-pcb-f072.kicad_prl",
     "version": 2
+  },
+  "project": {
+    "files": [
+      {
+        "name": "athene-pcb-f072.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 0,
+          "pos_y": 20,
+          "size_x": 500,
+          "size_y": 400
+        }
+      },
+      {
+        "name": "athene-pcb-f072.kicad_pro",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": false,
+          "pos_x": 82,
+          "pos_y": 81,
+          "size_x": 1099,
+          "size_y": 1066
+        }
+      }
+    ]
   }
 }
