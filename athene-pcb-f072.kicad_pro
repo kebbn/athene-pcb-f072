@@ -336,9 +336,6 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
-          "+3V3",
-          "+5V",
-          "GND",
           "VBUS"
         ],
         "track_width": 0.5,
@@ -389,7 +386,7 @@
   },
   "sheets": [
     [
-      "ddf64e27-7ea1-4a1b-a417-ff5692fbfd2b",
+      "b6eb6d99-92de-458f-ab5f-5d81ee9e0a7d",
       ""
     ]
   ],
